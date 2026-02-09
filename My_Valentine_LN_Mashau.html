@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff6a88, #ff99ac);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.18);
+      padding: 28px;
+      border-radius: 22px;
+      max-width: 380px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 15.5px;
+      line-height: 1.7;
+    }
+
+    button {
+      margin-top: 22px;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #ff4f7a;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #ffe1ea;
+    }
+
+    #hiddenMessage {
+      display: none;
+      margin-top: 22px;
+      font-size: 15px;
+    }
+
+    .signature {
+      margin-top: 18px;
+      font-style: italic;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>To My Love ❤️</h1>
+
+    <p>
+      From <strong>Your Love, Mr LN Mashau</strong><br>
+      To <strong>My Love, Miss AP Mashoene</strong>
+    </p>
+
+    <p>
+      Since we are far away from each other,<br>
+      I can’t ask you this face to face the way I truly want to.<br>
+      So I decided to ask you in the best way I can… from my heart.
+    </p>
+
+    <button onclick="showLove()">Tap to read more 💕</button>
+
+    <div id="hiddenMessage">
+      <p>
+        Distance has never changed how I feel about you.<br>
+        Even when we are not together physically,<br>
+        you are always close to my heart and my thoughts.
+        <br><br>
+        I chose this way because I wanted you to know<br>
+        that I think about you, I value you,<br>
+        and I care deeply about us.
+        <br><br>
+        So today, with all my love and sincerity…
+        <br><br>
+        <strong>Will you be my Valentine? 🌹❤️</strong>
+      </p>
+
+      <div class="signature">
+        Always yours,<br>
+        Mr LN Mashau
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("hiddenMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
